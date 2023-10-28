@@ -48,12 +48,17 @@ namespace Player
             }
 
             Debug.Log("Current hp is: " + Health);
-            // throw changeHealth event ?
+            TriggerHealthChange(amount);
         }
 
         private void Die()
         {
             EventBus.Trigger(PlayerDiedEvent.EventName, new PlayerDiedEvent("Consumed by darkness"));
+        }
+
+        private void TriggerHealthChange(int amount)
+        {
+            EventBus.Trigger(HealthChangedEvent.EventName, new HealthChangedEvent(Health, amount, maxHealth));
         }
     }
 }
