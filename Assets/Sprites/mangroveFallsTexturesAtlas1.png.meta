@@ -1,0 +1,3515 @@
+fileFormatVersion: 2
+guid: 36b6e510a20a7f64793c4c1d584ccfa9
+TextureImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 12
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+    flipGreenChannel: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  vTOnly: 0
+  ignoreMipmapLimit: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: 1
+    aniso: 1
+    mipBias: 0
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  flipbookRows: 1
+  flipbookColumns: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  ignorePngGamma: 0
+  applyGammaDecoding: 0
+  swizzle: 50462976
+  cookieLightType: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Server
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    ignorePlatformSupport: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_0
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 1025
+        width: 457
+        height: 1016
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1fefa6fed381ab4a8673d527994013d
+      internalID: 825303773
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_1
+      rect:
+        serializedVersion: 2
+        x: 499
+        y: 1027
+        width: 434
+        height: 1014
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3e7d117f01b83b4fa813960b4fbad03
+      internalID: -881929163
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_2
+      rect:
+        serializedVersion: 2
+        x: 967
+        y: 1994
+        width: 65
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38b72a0e473469843991714217164a9d
+      internalID: -1350298971
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_3
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 1990
+        width: 57
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d31d39effa9af4244aa3df3bfdc7c59c
+      internalID: 1201979277
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_4
+      rect:
+        serializedVersion: 2
+        x: 1104
+        y: 1991
+        width: 55
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5bb7c7eabbd9e8a4199998cfe7050130
+      internalID: 443651337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_5
+      rect:
+        serializedVersion: 2
+        x: 1286
+        y: 1785
+        width: 262
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ef69a4f385a05d4b95b6d7f2f1ec6b1
+      internalID: 1197991263
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_6
+      rect:
+        serializedVersion: 2
+        x: 1567
+        y: 1969
+        width: 61
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3586020f4a4bdb74bbc778c9e2c422ac
+      internalID: 1058177394
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_7
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 1972
+        width: 37
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41fbe00cc2c3d504b9ac09027eeca431
+      internalID: -1967741168
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_8
+      rect:
+        serializedVersion: 2
+        x: 1704
+        y: 1968
+        width: 60
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37285922f39aa1540ac089d51e20e105
+      internalID: -396959959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_9
+      rect:
+        serializedVersion: 2
+        x: 1778
+        y: 1972
+        width: 40
+        height: 57
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f3d6fddb24200b141a1955f7d948c7ae
+      internalID: 68150257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_10
+      rect:
+        serializedVersion: 2
+        x: 1900
+        y: 1970
+        width: 57
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f7ef3f0fe6455419ec780ff08c6cc8
+      internalID: 1876689019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_11
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 1961
+        width: 44
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f134934a0f0dd884380d44f66a1ea2ce
+      internalID: -1687512558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_12
+      rect:
+        serializedVersion: 2
+        x: 987
+        y: 1973
+        width: 69
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1d95daeb29c300c43967cec7a4d96bab
+      internalID: 625199450
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_13
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1665
+        width: 307
+        height: 296
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68dae45347f65674ab6b8f92c15db4c9
+      internalID: 1527446068
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_14
+      rect:
+        serializedVersion: 2
+        x: 1571
+        y: 1656
+        width: 312
+        height: 306
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4ffdf4efd39d040a9086740653d499
+      internalID: 1548401192
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_15
+      rect:
+        serializedVersion: 2
+        x: 1893
+        y: 1872
+        width: 79
+        height: 88
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: df56ed46e4e1d144497214f592841aad
+      internalID: 1985076890
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_16
+      rect:
+        serializedVersion: 2
+        x: 1981
+        y: 1884
+        width: 61
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3fa722e934165f44b99fdc18bc62674
+      internalID: 202403907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_17
+      rect:
+        serializedVersion: 2
+        x: 1899
+        y: 1858
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5090a2276d1417549a7187fb798e2871
+      internalID: 951802509
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_18
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1857
+        width: 6
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 27d081de54ed1ca4bb3b86586ca13eb7
+      internalID: -1075915810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_19
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1874
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70a098c3d1cc2b749a941e442ecac931
+      internalID: 777869337
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_20
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1845
+        width: 16
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23311c916281f424fbcdb3f6db3205a2
+      internalID: -1546205926
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_21
+      rect:
+        serializedVersion: 2
+        x: 1268
+        y: 1841
+        width: 5
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3f105ce2603468429ca1ca7712be157
+      internalID: 1171734622
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_22
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1838
+        width: 13
+        height: 33
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35a12ff208b141743b074d79e8dab3de
+      internalID: -1158471914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_23
+      rect:
+        serializedVersion: 2
+        x: 1946
+        y: 1831
+        width: 10
+        height: 42
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 409cf6e96dc6a2a47b2d7e7dac9c757f
+      internalID: -1381509853
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_24
+      rect:
+        serializedVersion: 2
+        x: 1960
+        y: 1791
+        width: 16
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e35d54084c346646884460dd9dad991
+      internalID: -1661085348
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_25
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 1834
+        width: 17
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4fb70f93fbee57d4ca029682e965a874
+      internalID: 1663632265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_26
+      rect:
+        serializedVersion: 2
+        x: 2004
+        y: 1826
+        width: 24
+        height: 46
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9560861655204b94e88a6332e5d114fb
+      internalID: -1468137896
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_27
+      rect:
+        serializedVersion: 2
+        x: 1903
+        y: 1770
+        width: 17
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8b28d7b37b9323a45becc39ad8f2cae6
+      internalID: -1145012333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_28
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1800
+        width: 4
+        height: 18
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1e1857d3796fbcb48bfc3bb9b261022c
+      internalID: -890077399
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_29
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 1817
+        width: 7
+        height: 14
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41152b3db12fef741b99b3bea64cb0d7
+      internalID: -1400772016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_30
+      rect:
+        serializedVersion: 2
+        x: 2008
+        y: 1812
+        width: 5
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 688c2b096384f404c99387669ecd7ee4
+      internalID: 2084426973
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_31
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 1806
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0e34103c724b8745a3928092093428c
+      internalID: -1416274360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_32
+      rect:
+        serializedVersion: 2
+        x: 1892
+        y: 1791
+        width: 9
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 783368ac9e5858d4f8ac7e23451a4a04
+      internalID: -1205102571
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_33
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1787
+        width: 8
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e3d4d2bbdd63d54f96f55a8dc6f888d
+      internalID: 1283500804
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_34
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 1779
+        width: 6
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 298c60d3286323a4ab2e7cf5cb3d5579
+      internalID: 1352818294
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_35
+      rect:
+        serializedVersion: 2
+        x: 1995
+        y: 1790
+        width: 5
+        height: 16
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 794acee98ea2b784dbd500794cbce980
+      internalID: -246169898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_36
+      rect:
+        serializedVersion: 2
+        x: 2003
+        y: 1769
+        width: 15
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c4d6c958ac950b44b9b0519b058bd472
+      internalID: -1952656367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_37
+      rect:
+        serializedVersion: 2
+        x: 1904
+        y: 1752
+        width: 8
+        height: 32
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b9516ac56d7a4b8409de4f4b8203c471
+      internalID: -1240697335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_38
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 1734
+        width: 21
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ce354053440487489df6b960dfac0ad
+      internalID: -614090917
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_39
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 1740
+        width: 14
+        height: 47
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22409c5db7e03f94897953c89a3c6611
+      internalID: -1100217352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_40
+      rect:
+        serializedVersion: 2
+        x: 1987
+        y: 1754
+        width: 13
+        height: 35
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ed22ad37eab61242b812bbc2d0d1e2b
+      internalID: 1307995298
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_41
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 1775
+        width: 4
+        height: 11
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5540eaf2c3ce8d44181bc2bd041d1813
+      internalID: 536243752
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_42
+      rect:
+        serializedVersion: 2
+        x: 1304
+        y: 1759
+        width: 62
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 306d7477cee9eac4aabe309eac68428c
+      internalID: 764908779
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_43
+      rect:
+        serializedVersion: 2
+        x: 1952
+        y: 1726
+        width: 9
+        height: 37
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6e066f48568747148aed2e0d819f83e7
+      internalID: 471903907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_44
+      rect:
+        serializedVersion: 2
+        x: 1992
+        y: 1702
+        width: 9
+        height: 58
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 06ba9a0ad713625439e4d936e576162e
+      internalID: -637688132
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_45
+      rect:
+        serializedVersion: 2
+        x: 2023
+        y: 1739
+        width: 9
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5fd597da957287043a2e693cd0829010
+      internalID: 1510616994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_46
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 1483
+        width: 275
+        height: 265
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 23a152eef1b1c134dbccf9ac45849918
+      internalID: 466468328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_47
+      rect:
+        serializedVersion: 2
+        x: 1894
+        y: 1701
+        width: 12
+        height: 56
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5727c954a3ceba846acbe5844a46fd0e
+      internalID: -2017087247
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_48
+      rect:
+        serializedVersion: 2
+        x: 1906
+        y: 1726
+        width: 10
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 67c78e1c660c4b34fbe3dd95db4bb5ed
+      internalID: 20970854
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_49
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 1744
+        width: 4
+        height: 6
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a7e09aaa5096134a957bb375aedda5e
+      internalID: 638621335
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_50
+      rect:
+        serializedVersion: 2
+        x: 2032
+        y: 1719
+        width: 10
+        height: 31
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa741d00f256b3d4ba5eb22b4fd6d06c
+      internalID: 621788910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_51
+      rect:
+        serializedVersion: 2
+        x: 1936
+        y: 1702
+        width: 8
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 995f53f73a4cfc34ca113849b70e5795
+      internalID: -1151918495
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_52
+      rect:
+        serializedVersion: 2
+        x: 1948
+        y: 1715
+        width: 4
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 268478e090a5a3e4ca53a92ef803b661
+      internalID: -151336400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_53
+      rect:
+        serializedVersion: 2
+        x: 1962
+        y: 1704
+        width: 14
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c57c7173f0e11b54a9c43af67238c844
+      internalID: -391308258
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_54
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 1715
+        width: 4
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 89706d18045ce384592ca16a26734b81
+      internalID: -1092222389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_55
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 1700
+        width: 11
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dbb627b07c2414198ae98018fb832d
+      internalID: -996895831
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_56
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 1720
+        width: 8
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 59eae9b95f4439e4883204986b329989
+      internalID: 1453273050
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_57
+      rect:
+        serializedVersion: 2
+        x: 1912
+        y: 1701
+        width: 6
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 39af8c4a571d967498c9dbfe2270c7cc
+      internalID: 1277939029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_58
+      rect:
+        serializedVersion: 2
+        x: 1918
+        y: 1615
+        width: 108
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 892aa3bd0ebd61f43b3f6a3a2788fedb
+      internalID: -381207619
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_59
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1343
+        width: 293
+        height: 307
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 71078cc4357398f47a48e1e439b91707
+      internalID: 105720352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_60
+      rect:
+        serializedVersion: 2
+        x: 1137
+        y: 1646
+        width: 11
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7641dcf903bc39b4a8b1e958399a3bf3
+      internalID: -1154837934
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_61
+      rect:
+        serializedVersion: 2
+        x: 1734
+        y: 1580
+        width: 71
+        height: 69
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54d67e86463ab914082115adad853dd5
+      internalID: -232547081
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_62
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 1566
+        width: 67
+        height: 82
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9851b3f069cb21d48a10399669a7c890
+      internalID: -1861821963
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_63
+      rect:
+        serializedVersion: 2
+        x: 1575
+        y: 1589
+        width: 71
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 09cd8d19ac0fff44196dc7f45ffe2cf8
+      internalID: -1145419502
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_64
+      rect:
+        serializedVersion: 2
+        x: 1659
+        y: 1583
+        width: 64
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6bf4b90d4dd0c043a56bd12d94e06db
+      internalID: -331864842
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_65
+      rect:
+        serializedVersion: 2
+        x: 1922
+        y: 1531
+        width: 90
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 834b94d45ea6e0f4cb445b7430d2f342
+      internalID: 1485682274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_66
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 1440
+        width: 36
+        height: 39
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5b09fa2bdaccd084783df2fa242e2fa2
+      internalID: -631649747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_67
+      rect:
+        serializedVersion: 2
+        x: 1300
+        y: 1469
+        width: 23
+        height: 10
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3ffd3ccd5de0c024884c86bc690782ab
+      internalID: 1656214268
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_68
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 1335
+        width: 149
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd689824ed322874fae851f79ce45350
+      internalID: -781595187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_69
+      rect:
+        serializedVersion: 2
+        x: 1580
+        y: 1273
+        width: 252
+        height: 299
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c49a3cba6370a7e43a884a9a4c117803
+      internalID: 1085329929
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_70
+      rect:
+        serializedVersion: 2
+        x: 1851
+        y: 1474
+        width: 56
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a71637cb3db1ea34e8456c604e145429
+      internalID: -198802589
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_71
+      rect:
+        serializedVersion: 2
+        x: 1921
+        y: 1419
+        width: 102
+        height: 93
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4bd8672938cc245b174ed039851b67
+      internalID: 1200239370
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_72
+      rect:
+        serializedVersion: 2
+        x: 1331
+        y: 1443
+        width: 25
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ef9b4cc64ac4e046b2d1124cfafbc6e
+      internalID: 1588737660
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_73
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1418
+        width: 29
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a2d94843222eab74caf5fde7a6093c52
+      internalID: -2034231850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_74
+      rect:
+        serializedVersion: 2
+        x: 1842
+        y: 1383
+        width: 75
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e94950653146fa649be81f7df57cda87
+      internalID: 575909463
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_75
+      rect:
+        serializedVersion: 2
+        x: 1263
+        y: 1365
+        width: 19
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a601e0fce091b5e41b0229d19456eb48
+      internalID: -1431443296
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_76
+      rect:
+        serializedVersion: 2
+        x: 1295
+        y: 1359
+        width: 69
+        height: 66
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2201cc024cd366747a7c1ea689e1b4e0
+      internalID: 1698418901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_77
+      rect:
+        serializedVersion: 2
+        x: 1379
+        y: 1356
+        width: 26
+        height: 52
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 48930f6c20c91664a9da01a3e2081d47
+      internalID: 336655482
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_78
+      rect:
+        serializedVersion: 2
+        x: 1847
+        y: 1283
+        width: 68
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9815d2ba860b2fb40bc2132f5874c14f
+      internalID: -1391393360
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_79
+      rect:
+        serializedVersion: 2
+        x: 1925
+        y: 1312
+        width: 100
+        height: 94
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7a6397213ec6284e81779ea3bf30a86
+      internalID: 446168311
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_80
+      rect:
+        serializedVersion: 2
+        x: 965
+        y: 1020
+        width: 318
+        height: 301
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a94ce59ddeb89544ea0136096e8d8d98
+      internalID: 235192863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_81
+      rect:
+        serializedVersion: 2
+        x: 1288
+        y: 1225
+        width: 122
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bd05b8eef679c94993d21ded77c5d35
+      internalID: 1164411125
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_82
+      rect:
+        serializedVersion: 2
+        x: 1423
+        y: 1140
+        width: 145
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ae3dc9cd51f20c64fa72610af949fc06
+      internalID: 1191312587
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_83
+      rect:
+        serializedVersion: 2
+        x: 1600
+        y: 1021
+        width: 240
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad415f953c4fee04a9daf2d9c74206a1
+      internalID: -1024971737
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_84
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 1150
+        width: 60
+        height: 123
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 338769dc0398fd043b15d3a6695abaa3
+      internalID: -378963778
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_85
+      rect:
+        serializedVersion: 2
+        x: 1940
+        y: 1192
+        width: 95
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 16456f4cfac36a147b6fb6aedf0dea5a
+      internalID: 1362245108
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_86
+      rect:
+        serializedVersion: 2
+        x: 1289
+        y: 1090
+        width: 128
+        height: 128
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dc155de2d07c9a46a02b94b52a318fb
+      internalID: -2055153880
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_87
+      rect:
+        serializedVersion: 2
+        x: 1843
+        y: 1155
+        width: 6
+        height: 28
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2a4040431dfb94a478cfc161500e7d94
+      internalID: -1133164595
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_88
+      rect:
+        serializedVersion: 2
+        x: 1935
+        y: 1089
+        width: 88
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 37bbb51a49b3f034d9819fb91fbcbf1b
+      internalID: 1662533699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_89
+      rect:
+        serializedVersion: 2
+        x: 1291
+        y: 839
+        width: 134
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 035d0be41d7dda443b526e1fb18165dc
+      internalID: 2010728093
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_90
+      rect:
+        serializedVersion: 2
+        x: 1428
+        y: 939
+        width: 166
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4ef46495c1ef3e34ab6053b8b6df8a0b
+      internalID: -671890367
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_91
+      rect:
+        serializedVersion: 2
+        x: 1844
+        y: 1036
+        width: 5
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdabdeed1abb08740a18c611c96965da
+      internalID: -625640366
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_92
+      rect:
+        serializedVersion: 2
+        x: 1856
+        y: 1012
+        width: 38
+        height: 125
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0889790c062fcb7438b26deee295f30e
+      internalID: -1034136279
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_93
+      rect:
+        serializedVersion: 2
+        x: 1891
+        y: 1013
+        width: 31
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d4c458255d987324fbbce2a543d83301
+      internalID: 13678627
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_94
+      rect:
+        serializedVersion: 2
+        x: 1931
+        y: 971
+        width: 112
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: af79f21845eaa40419cfcd974ca59583
+      internalID: -1567079561
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_95
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 12
+        width: 415
+        height: 1007
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41b73389f0f8b5d4db2632d104464a13
+      internalID: 908661834
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_96
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 844
+        width: 432
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d6774c241fcaf6440ae6d816e60c70a0
+      internalID: 1195406518
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_97
+      rect:
+        serializedVersion: 2
+        x: 930
+        y: 871
+        width: 358
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78451e4bf62df2b4ea777f6fa556f1ba
+      internalID: -440492328
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_98
+      rect:
+        serializedVersion: 2
+        x: 1432
+        y: 737
+        width: 180
+        height: 195
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 78175a6180fec044093dccdbeeeb9d20
+      internalID: -1432265579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_99
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 790
+        width: 171
+        height: 199
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 153129493c5373e4498388acc1e8fd0f
+      internalID: -2054970570
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_100
+      rect:
+        serializedVersion: 2
+        x: 1858
+        y: 872
+        width: 63
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bb514f0ee69fdce48b4b1f116cb7a418
+      internalID: 245792871
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_101
+      rect:
+        serializedVersion: 2
+        x: 1949
+        y: 856
+        width: 95
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ad56badd0fca13c49a595af152c75aed
+      internalID: -1035704558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_102
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 559
+        width: 615
+        height: 243
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 074f9c84b4a704a40b86ccd2cf9599a8
+      internalID: -1441656769
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_103
+      rect:
+        serializedVersion: 2
+        x: 1126
+        y: 740
+        width: 146
+        height: 77
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e827533372bc0ce46bb44ffd2bcf842e
+      internalID: -276477731
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_104
+      rect:
+        serializedVersion: 2
+        x: 1285
+        y: 738
+        width: 140
+        height: 90
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bffb099d3e96e404484d46e48714ae5c
+      internalID: 1703687152
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_105
+      rect:
+        serializedVersion: 2
+        x: 1860
+        y: 704
+        width: 81
+        height: 149
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 75aede25ec8e19e4e9193847501e569d
+      internalID: 733377142
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_106
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 768
+        width: 58
+        height: 78
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 73d85fece3d2bd1499bc9c6002d92796
+      internalID: 1257340904
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_107
+      rect:
+        serializedVersion: 2
+        x: 1111
+        y: 530
+        width: 503
+        height: 204
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b94e9d0d0d4a77448839a8b2513b03f8
+      internalID: -202819238
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_108
+      rect:
+        serializedVersion: 2
+        x: 1644
+        y: 532
+        width: 190
+        height: 222
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a5475f015d829b845ad0371cf7507a50
+      internalID: 155574233
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_109
+      rect:
+        serializedVersion: 2
+        x: 1951
+        y: 708
+        width: 21
+        height: 53
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6d0e04f7665654c45b9e61e79bbc4ab2
+      internalID: 374434352
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_110
+      rect:
+        serializedVersion: 2
+        x: 1984
+        y: 657
+        width: 51
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 12b4223d1c9c1f64da39927f4358458e
+      internalID: -840768087
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_111
+      rect:
+        serializedVersion: 2
+        x: 1861
+        y: 577
+        width: 114
+        height: 121
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 92e857a2393d29a4b8b191791cea82fa
+      internalID: 1522074432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_112
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 543
+        width: 31
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b16a37a15f256bf4e9de1f3bdf805e16
+      internalID: 342691441
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_113
+      rect:
+        serializedVersion: 2
+        x: 2010
+        y: 545
+        width: 26
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fa47056e986e72b4cb9653303a2347dc
+      internalID: 1857014117
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_114
+      rect:
+        serializedVersion: 2
+        x: 492
+        y: 3
+        width: 524
+        height: 527
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0bce607667a792e46a3b8b51368537cd
+      internalID: 2006474539
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_115
+      rect:
+        serializedVersion: 2
+        x: 1019
+        y: 418
+        width: 512
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a7f0337aefbd0af429d5af88c8643076
+      internalID: 525945850
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_116
+      rect:
+        serializedVersion: 2
+        x: 1537
+        y: 487
+        width: 27
+        height: 25
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3b7f24d11b2f3c347a857e176f1183e8
+      internalID: 2023025859
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_117
+      rect:
+        serializedVersion: 2
+        x: 1573
+        y: 385
+        width: 282
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 351185a545b3a0841b5118b4a5908109
+      internalID: 849735780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_118
+      rect:
+        serializedVersion: 2
+        x: 1863
+        y: 364
+        width: 62
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7783a4e7a98c64c4ea6d1ad963985a6c
+      internalID: -466000415
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_119
+      rect:
+        serializedVersion: 2
+        x: 1920
+        y: 365
+        width: 52
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21a81c9cf83767b4885ca893fd2ea442
+      internalID: -1246255030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_120
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 423
+        width: 35
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e456aa310797d74f99842b7fe50b39b
+      internalID: 54200229
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_121
+      rect:
+        serializedVersion: 2
+        x: 2012
+        y: 426
+        width: 28
+        height: 68
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e1ce221ae116315428a5b4e25431fae4
+      internalID: 761735863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_122
+      rect:
+        serializedVersion: 2
+        x: 1534
+        y: 415
+        width: 32
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f6676a80f0266644ba697cede2182734
+      internalID: -2082202363
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_123
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 404
+        width: 90
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 675d83cc036952b45bba4a4444b76523
+      internalID: 2046198307
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_124
+      rect:
+        serializedVersion: 2
+        x: 1434
+        y: 379
+        width: 62
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f73a19801bd6144468800753196774b4
+      internalID: -1323845699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_125
+      rect:
+        serializedVersion: 2
+        x: 1505
+        y: 379
+        width: 60
+        height: 27
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c95aaae4ea8ebb14cb7ed9e1d12236dc
+      internalID: -207571533
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_126
+      rect:
+        serializedVersion: 2
+        x: 1980
+        y: 359
+        width: 32
+        height: 54
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 98506d0357ab14b41a695f57fcdc23e3
+      internalID: -1765365918
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_127
+      rect:
+        serializedVersion: 2
+        x: 2019
+        y: 382
+        width: 25
+        height: 23
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fd46139f334d074eba9d35b6490a20d
+      internalID: 365897362
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_128
+      rect:
+        serializedVersion: 2
+        x: 1022
+        y: 3
+        width: 398
+        height: 385
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 989cd26af7f91804caec1db4c5d5e0bd
+      internalID: -1531374838
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_129
+      rect:
+        serializedVersion: 2
+        x: 1438
+        y: 288
+        width: 301
+        height: 84
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e4dcb022b779abf4b95f92f57c20c8fc
+      internalID: 1587582029
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_130
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 347
+        width: 26
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99f7fded2911ac149a6f34a397fe02aa
+      internalID: -517924957
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_131
+      rect:
+        serializedVersion: 2
+        x: 1788
+        y: 351
+        width: 20
+        height: 9
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81f3d88f3a9bfd444b5d5a4de4ca56f6
+      internalID: 710473761
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_132
+      rect:
+        serializedVersion: 2
+        x: 2020
+        y: 351
+        width: 24
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 17730ee34ae57f44784dae26547a1063
+      internalID: 780049055
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_133
+      rect:
+        serializedVersion: 2
+        x: 1765
+        y: 284
+        width: 205
+        height: 63
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 61133a3583b277a40bb80e7a2e86bd4e
+      internalID: 1608714788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_134
+      rect:
+        serializedVersion: 2
+        x: 1964
+        y: 343
+        width: 11
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c06597adfb2982c4ea055fad79cb5ae9
+      internalID: -828344894
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_135
+      rect:
+        serializedVersion: 2
+        x: 1982
+        y: 288
+        width: 32
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cc493f96cbb0644c9b283020c807925
+      internalID: -2091323030
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_136
+      rect:
+        serializedVersion: 2
+        x: 1433
+        y: 315
+        width: 13
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c37653b60b0d6a44ca3dff0ffb3877ee
+      internalID: -1879872993
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_137
+      rect:
+        serializedVersion: 2
+        x: 1733
+        y: 308
+        width: 18
+        height: 17
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bf8a18b682583c40bce1412cd584494
+      internalID: 1782058336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_138
+      rect:
+        serializedVersion: 2
+        x: 1740
+        y: 323
+        width: 14
+        height: 20
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9166eed27ff623144819fed577ddcaf5
+      internalID: -2110614591
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_139
+      rect:
+        serializedVersion: 2
+        x: 2024
+        y: 292
+        width: 17
+        height: 48
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7125100e179d59043b4522432849746f
+      internalID: 217581359
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_140
+      rect:
+        serializedVersion: 2
+        x: 1739
+        y: 288
+        width: 15
+        height: 22
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd2c3d52187bd844ea54bc0b32723cb9
+      internalID: 376707115
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_141
+      rect:
+        serializedVersion: 2
+        x: 1757
+        y: 307
+        width: 12
+        height: 12
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1da33e30f6819794a9f22087ca1b7ad9
+      internalID: 738631868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_142
+      rect:
+        serializedVersion: 2
+        x: 1963
+        y: 287
+        width: 14
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce62de3eeb18b99429d3d573ced88754
+      internalID: -317343036
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_143
+      rect:
+        serializedVersion: 2
+        x: 1971
+        y: 307
+        width: 8
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 83c3485c7a64f504f8c3a900b6fba051
+      internalID: -299259097
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_144
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 261
+        width: 9
+        height: 21
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ccda1520b7ce6114e981b649af9c1b0a
+      internalID: -1573744165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_145
+      rect:
+        serializedVersion: 2
+        x: 1444
+        y: 15
+        width: 577
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8f067e5fb305189449279b3ac2df0075
+      internalID: 1554643867
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_146
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 239
+        width: 14
+        height: 13
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fcfcbffbda8780d4b8b6e520364569b7
+      internalID: -1228140966
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_147
+      rect:
+        serializedVersion: 2
+        x: 1417
+        y: 230
+        width: 5
+        height: 7
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fd2821eecfea29b44b3254e818769394
+      internalID: -1153194134
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_148
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 215
+        width: 14
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1db0fb77c7856448ac4d0218ce813a9
+      internalID: -82423912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_149
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 192
+        width: 16
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1a563b2527439b4d85b8827045ba88b
+      internalID: 738191374
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_150
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 159
+        width: 9
+        height: 26
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1fe0cb3e227c0e84c8b19d3daa45a765
+      internalID: -1660956231
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_151
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 122
+        width: 12
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bbfc995d86bd6ab4b8e8cdfd725485d7
+      internalID: 1169254919
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_152
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 83
+        width: 13
+        height: 30
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 80968e6773046ee44badd22ab95f1cd3
+      internalID: -1582379616
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: mangroveFallsTexturesAtlas1_153
+      rect:
+        serializedVersion: 2
+        x: 2028
+        y: 5
+        width: 16
+        height: 67
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2c0883395b1ca24da3574332fe4a439
+      internalID: 1548037291
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+    nameFileIdTable:
+      mangroveFallsTexturesAtlas1_0: 825303773
+      mangroveFallsTexturesAtlas1_1: -881929163
+      mangroveFallsTexturesAtlas1_10: 1876689019
+      mangroveFallsTexturesAtlas1_100: 245792871
+      mangroveFallsTexturesAtlas1_101: -1035704558
+      mangroveFallsTexturesAtlas1_102: -1441656769
+      mangroveFallsTexturesAtlas1_103: -276477731
+      mangroveFallsTexturesAtlas1_104: 1703687152
+      mangroveFallsTexturesAtlas1_105: 733377142
+      mangroveFallsTexturesAtlas1_106: 1257340904
+      mangroveFallsTexturesAtlas1_107: -202819238
+      mangroveFallsTexturesAtlas1_108: 155574233
+      mangroveFallsTexturesAtlas1_109: 374434352
+      mangroveFallsTexturesAtlas1_11: -1687512558
+      mangroveFallsTexturesAtlas1_110: -840768087
+      mangroveFallsTexturesAtlas1_111: 1522074432
+      mangroveFallsTexturesAtlas1_112: 342691441
+      mangroveFallsTexturesAtlas1_113: 1857014117
+      mangroveFallsTexturesAtlas1_114: 2006474539
+      mangroveFallsTexturesAtlas1_115: 525945850
+      mangroveFallsTexturesAtlas1_116: 2023025859
+      mangroveFallsTexturesAtlas1_117: 849735780
+      mangroveFallsTexturesAtlas1_118: -466000415
+      mangroveFallsTexturesAtlas1_119: -1246255030
+      mangroveFallsTexturesAtlas1_12: 625199450
+      mangroveFallsTexturesAtlas1_120: 54200229
+      mangroveFallsTexturesAtlas1_121: 761735863
+      mangroveFallsTexturesAtlas1_122: -2082202363
+      mangroveFallsTexturesAtlas1_123: 2046198307
+      mangroveFallsTexturesAtlas1_124: -1323845699
+      mangroveFallsTexturesAtlas1_125: -207571533
+      mangroveFallsTexturesAtlas1_126: -1765365918
+      mangroveFallsTexturesAtlas1_127: 365897362
+      mangroveFallsTexturesAtlas1_128: -1531374838
+      mangroveFallsTexturesAtlas1_129: 1587582029
+      mangroveFallsTexturesAtlas1_13: 1527446068
+      mangroveFallsTexturesAtlas1_130: -517924957
+      mangroveFallsTexturesAtlas1_131: 710473761
+      mangroveFallsTexturesAtlas1_132: 780049055
+      mangroveFallsTexturesAtlas1_133: 1608714788
+      mangroveFallsTexturesAtlas1_134: -828344894
+      mangroveFallsTexturesAtlas1_135: -2091323030
+      mangroveFallsTexturesAtlas1_136: -1879872993
+      mangroveFallsTexturesAtlas1_137: 1782058336
+      mangroveFallsTexturesAtlas1_138: -2110614591
+      mangroveFallsTexturesAtlas1_139: 217581359
+      mangroveFallsTexturesAtlas1_14: 1548401192
+      mangroveFallsTexturesAtlas1_140: 376707115
+      mangroveFallsTexturesAtlas1_141: 738631868
+      mangroveFallsTexturesAtlas1_142: -317343036
+      mangroveFallsTexturesAtlas1_143: -299259097
+      mangroveFallsTexturesAtlas1_144: -1573744165
+      mangroveFallsTexturesAtlas1_145: 1554643867
+      mangroveFallsTexturesAtlas1_146: -1228140966
+      mangroveFallsTexturesAtlas1_147: -1153194134
+      mangroveFallsTexturesAtlas1_148: -82423912
+      mangroveFallsTexturesAtlas1_149: 738191374
+      mangroveFallsTexturesAtlas1_15: 1985076890
+      mangroveFallsTexturesAtlas1_150: -1660956231
+      mangroveFallsTexturesAtlas1_151: 1169254919
+      mangroveFallsTexturesAtlas1_152: -1582379616
+      mangroveFallsTexturesAtlas1_153: 1548037291
+      mangroveFallsTexturesAtlas1_16: 202403907
+      mangroveFallsTexturesAtlas1_17: 951802509
+      mangroveFallsTexturesAtlas1_18: -1075915810
+      mangroveFallsTexturesAtlas1_19: 777869337
+      mangroveFallsTexturesAtlas1_2: -1350298971
+      mangroveFallsTexturesAtlas1_20: -1546205926
+      mangroveFallsTexturesAtlas1_21: 1171734622
+      mangroveFallsTexturesAtlas1_22: -1158471914
+      mangroveFallsTexturesAtlas1_23: -1381509853
+      mangroveFallsTexturesAtlas1_24: -1661085348
+      mangroveFallsTexturesAtlas1_25: 1663632265
+      mangroveFallsTexturesAtlas1_26: -1468137896
+      mangroveFallsTexturesAtlas1_27: -1145012333
+      mangroveFallsTexturesAtlas1_28: -890077399
+      mangroveFallsTexturesAtlas1_29: -1400772016
+      mangroveFallsTexturesAtlas1_3: 1201979277
+      mangroveFallsTexturesAtlas1_30: 2084426973
+      mangroveFallsTexturesAtlas1_31: -1416274360
+      mangroveFallsTexturesAtlas1_32: -1205102571
+      mangroveFallsTexturesAtlas1_33: 1283500804
+      mangroveFallsTexturesAtlas1_34: 1352818294
+      mangroveFallsTexturesAtlas1_35: -246169898
+      mangroveFallsTexturesAtlas1_36: -1952656367
+      mangroveFallsTexturesAtlas1_37: -1240697335
+      mangroveFallsTexturesAtlas1_38: -614090917
+      mangroveFallsTexturesAtlas1_39: -1100217352
+      mangroveFallsTexturesAtlas1_4: 443651337
+      mangroveFallsTexturesAtlas1_40: 1307995298
+      mangroveFallsTexturesAtlas1_41: 536243752
+      mangroveFallsTexturesAtlas1_42: 764908779
+      mangroveFallsTexturesAtlas1_43: 471903907
+      mangroveFallsTexturesAtlas1_44: -637688132
+      mangroveFallsTexturesAtlas1_45: 1510616994
+      mangroveFallsTexturesAtlas1_46: 466468328
+      mangroveFallsTexturesAtlas1_47: -2017087247
+      mangroveFallsTexturesAtlas1_48: 20970854
+      mangroveFallsTexturesAtlas1_49: 638621335
+      mangroveFallsTexturesAtlas1_5: 1197991263
+      mangroveFallsTexturesAtlas1_50: 621788910
+      mangroveFallsTexturesAtlas1_51: -1151918495
+      mangroveFallsTexturesAtlas1_52: -151336400
+      mangroveFallsTexturesAtlas1_53: -391308258
+      mangroveFallsTexturesAtlas1_54: -1092222389
+      mangroveFallsTexturesAtlas1_55: -996895831
+      mangroveFallsTexturesAtlas1_56: 1453273050
+      mangroveFallsTexturesAtlas1_57: 1277939029
+      mangroveFallsTexturesAtlas1_58: -381207619
+      mangroveFallsTexturesAtlas1_59: 105720352
+      mangroveFallsTexturesAtlas1_6: 1058177394
+      mangroveFallsTexturesAtlas1_60: -1154837934
+      mangroveFallsTexturesAtlas1_61: -232547081
+      mangroveFallsTexturesAtlas1_62: -1861821963
+      mangroveFallsTexturesAtlas1_63: -1145419502
+      mangroveFallsTexturesAtlas1_64: -331864842
+      mangroveFallsTexturesAtlas1_65: 1485682274
+      mangroveFallsTexturesAtlas1_66: -631649747
+      mangroveFallsTexturesAtlas1_67: 1656214268
+      mangroveFallsTexturesAtlas1_68: -781595187
+      mangroveFallsTexturesAtlas1_69: 1085329929
+      mangroveFallsTexturesAtlas1_7: -1967741168
+      mangroveFallsTexturesAtlas1_70: -198802589
+      mangroveFallsTexturesAtlas1_71: 1200239370
+      mangroveFallsTexturesAtlas1_72: 1588737660
+      mangroveFallsTexturesAtlas1_73: -2034231850
+      mangroveFallsTexturesAtlas1_74: 575909463
+      mangroveFallsTexturesAtlas1_75: -1431443296
+      mangroveFallsTexturesAtlas1_76: 1698418901
+      mangroveFallsTexturesAtlas1_77: 336655482
+      mangroveFallsTexturesAtlas1_78: -1391393360
+      mangroveFallsTexturesAtlas1_79: 446168311
+      mangroveFallsTexturesAtlas1_8: -396959959
+      mangroveFallsTexturesAtlas1_80: 235192863
+      mangroveFallsTexturesAtlas1_81: 1164411125
+      mangroveFallsTexturesAtlas1_82: 1191312587
+      mangroveFallsTexturesAtlas1_83: -1024971737
+      mangroveFallsTexturesAtlas1_84: -378963778
+      mangroveFallsTexturesAtlas1_85: 1362245108
+      mangroveFallsTexturesAtlas1_86: -2055153880
+      mangroveFallsTexturesAtlas1_87: -1133164595
+      mangroveFallsTexturesAtlas1_88: 1662533699
+      mangroveFallsTexturesAtlas1_89: 2010728093
+      mangroveFallsTexturesAtlas1_9: 68150257
+      mangroveFallsTexturesAtlas1_90: -671890367
+      mangroveFallsTexturesAtlas1_91: -625640366
+      mangroveFallsTexturesAtlas1_92: -1034136279
+      mangroveFallsTexturesAtlas1_93: 13678627
+      mangroveFallsTexturesAtlas1_94: -1567079561
+      mangroveFallsTexturesAtlas1_95: 908661834
+      mangroveFallsTexturesAtlas1_96: 1195406518
+      mangroveFallsTexturesAtlas1_97: -440492328
+      mangroveFallsTexturesAtlas1_98: -1432265579
+      mangroveFallsTexturesAtlas1_99: -2054970570
+  mipmapLimitGroupName: 
+  pSDRemoveMatte: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
