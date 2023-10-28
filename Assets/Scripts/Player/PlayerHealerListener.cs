@@ -6,14 +6,18 @@ namespace Player
 {
     public class PlayerHealerListener : MonoBehaviour
     {
+        [SerializeField] private int healAmount;
+        private PlayerHealth _playerHealth;
+
         private void Start()
         {
+            _playerHealth = FindObjectOfType<PlayerHealth>();
             EventBus.Register<EnteredLightZoneEvent>(EnteredLightZoneEvent.EventName, HealPlayer);
         }
 
         private void HealPlayer(EnteredLightZoneEvent lightEvent)
         {
-            Debug.Log("Healing event");
+            _playerHealth.Heal(healAmount);
         }
     }
 }
