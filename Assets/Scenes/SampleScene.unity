@@ -688,7 +688,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1014,7 +1014,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.34197295, y: 6.0927057, z: -10}
+  m_LocalPosition: {x: -0.33268774, y: 6.092963, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1065,7 +1065,7 @@ GameObject:
   - component: {fileID: 534840949}
   - component: {fileID: 534840951}
   - component: {fileID: 534840950}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Slope
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1174,7 +1174,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1303,7 +1303,7 @@ MonoBehaviour:
   m_Intensity: 0.05
   m_LightVolumeIntensity: 1
   m_LightVolumeIntensityEnabled: 0
-  m_ApplyToSortingLayers: 0000000015ee870fc9280d3b
+  m_ApplyToSortingLayers: 00000000
   m_LightCookieSprite: {fileID: 0}
   m_DeprecatedPointLightCookieSprite: {fileID: 0}
   m_LightOrder: 0
@@ -1537,7 +1537,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -1621,7 +1621,7 @@ Transform:
   m_GameObject: {fileID: 781167323}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0.473, y: -0.089, z: 0}
+  m_LocalPosition: {x: 0.473, y: 0.13400005, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -1710,7 +1710,7 @@ Transform:
   m_GameObject: {fileID: 860777550}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.34209692, y: 3.7600005, z: -10}
+  m_LocalPosition: {x: -0.3328117, y: 3.7600005, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -2349,7 +2349,7 @@ SpriteRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 5
   m_Sprite: {fileID: 7482667652216324306, guid: 311925a002f4447b3a28927169b83ea6, type: 3}
-  m_Color: {r: 0.33962262, g: 0.33962262, b: 0.33962262, a: 1}
+  m_Color: {r: 0, g: 0, b: 0, a: 1}
   m_FlipX: 0
   m_FlipY: 0
   m_DrawMode: 0
@@ -2516,7 +2516,7 @@ Transform:
   m_GameObject: {fileID: 1282505595}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.493, y: -0.089, z: 0}
+  m_LocalPosition: {x: -0.493, y: 0.134, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3406,6 +3406,7 @@ GameObject:
   - component: {fileID: 2027455415}
   - component: {fileID: 2027455416}
   - component: {fileID: 2027455417}
+  - component: {fileID: 2027455418}
   m_Layer: 0
   m_Name: Player
   m_TagString: Untagged
@@ -3544,10 +3545,10 @@ MonoBehaviour:
   _groundCheckSize: {x: 0.49, y: 0.03}
   _frontWallCheckPoint: {fileID: 781167324}
   _backWallCheckPoint: {fileID: 1282505596}
-  _wallCheckSize: {x: 0.29, y: 0.73}
+  _wallCheckSize: {x: 0.29, y: 0.38}
   _groundLayer:
     serializedVersion: 2
-    m_Bits: 256
+    m_Bits: 768
 --- !u!114 &2027455417
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3564,6 +3565,25 @@ MonoBehaviour:
   tiltSpeed: 0.08
   jumpFX: {fileID: 0}
   landFX: {fileID: 0}
+--- !u!114 &2027455418
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2027455409}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d1652782743fcf54f9e29f633557bbfa, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _slopeCheckPoint: {fileID: 65329645}
+  _slopeCheckSize: {x: 0.49, y: 0.03}
+  slopeLayer:
+    serializedVersion: 2
+    m_Bits: 512
+  noFrictionMaterial: {fileID: 6200000, guid: 5b2341a126b89714c905c9cd84dc54bd, type: 2}
+  fullFrictionMaterial: {fileID: 6200000, guid: 94a949c761b4a574782cee178c531609, type: 2}
 --- !u!1 &2079347645
 GameObject:
   m_ObjectHideFlags: 0
