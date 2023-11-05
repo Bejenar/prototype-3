@@ -1,4 +1,6 @@
+using System;
 using System.Collections;
+using Player.Abilities;
 using Player.Events;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -8,6 +10,8 @@ public class InsideLightsourceBehavior : MonoBehaviour
     [SerializeField] private LayerMask healingLightMask;
     [SerializeField] private LayerMask ordinaryLightMask;
     [SerializeField] float tickTimer;
+
+    [SerializeField] public float darknessDamagePerTick; 
 
     private bool isInsideHealingZone;
     private bool isInsideLightZone;
@@ -28,7 +32,7 @@ public class InsideLightsourceBehavior : MonoBehaviour
             }
             else if (!isInsideLightZone)
             {
-                EventBus.Trigger(EnteredDarknessZoneEvent.EventName, new EnteredDarknessZoneEvent());
+                EventBus.Trigger(EnteredDarknessZoneEvent.EventName, new EnteredDarknessZoneEvent(darknessDamagePerTick));
             }
 
             yield return new WaitForSeconds(tickTimer);

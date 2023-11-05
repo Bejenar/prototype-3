@@ -6,18 +6,18 @@ namespace Player
 {
     public class PlayerDamagerListener : MonoBehaviour
     {
-        [SerializeField] private int damage;
         private PlayerHealth _playerHealth;
 
         private void Start()
         {
             _playerHealth = FindObjectOfType<PlayerHealth>();
             EventBus.Register<EnteredDarknessZoneEvent>(EnteredDarknessZoneEvent.EventName, DamagePlayer);
+            EventBus.Register<PlayerProjectileShotEvent>(PlayerProjectileShotEvent.EventName, DamagePlayer);
         }
 
-        private void DamagePlayer(EnteredDarknessZoneEvent healingEvent)
+        private void DamagePlayer(IDamagingEvent e)
         {
-            _playerHealth.Damage(damage);
+            _playerHealth.Damage(e.damage);
         }
     }
 }

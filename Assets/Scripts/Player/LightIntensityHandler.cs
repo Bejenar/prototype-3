@@ -47,7 +47,7 @@ namespace Player
 
         private void OnHealthChanged(HealthChangedEvent healthChangedEvent)
         {
-            var currentHealthRatio = (healthChangedEvent.CurrentHealth  / (float) healthChangedEvent.MaxHealth);
+            var currentHealthRatio = (healthChangedEvent.CurrentHealth  / healthChangedEvent.MaxHealth);
             _light.intensity = currentHealthRatio * currentHealthRatio * initialIntensity;
 
 

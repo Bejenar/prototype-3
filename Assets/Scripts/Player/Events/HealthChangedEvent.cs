@@ -2,7 +2,7 @@ namespace Player.Events
 {
     public class HealthChangedEvent : PlayerEvent
     {
-        public HealthChangedEvent(int currentHealth, int healthChange, int maxHealth)
+        public HealthChangedEvent(float currentHealth, float healthChange, float maxHealth)
         {
             CurrentHealth = currentHealth;
             HealthChange = healthChange;
@@ -12,8 +12,8 @@ namespace Player.Events
 
         public const string EventName = "player-health-changed";
 
-        public int MaxHealth { get; private set; }
-        public int CurrentHealth { get; private set; }
-        public int HealthChange { get; private set; }
+        public float MaxHealth { get; private set; }
+        public float CurrentHealth { get; private set; }
+        public float HealthChange { get; private set; }
     }
 }
