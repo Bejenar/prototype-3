@@ -1,0 +1,18 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a57f0ac759da4eb7ba40f3afe123f3cd, type: 3}
+  m_Name: Light Shot Ability Meta
+  m_EditorClassIdentifier: 
+  _name: Light Shot
+  _description: Allows Sunny Bunny to shoot light to look around and fight enemies.
+    Use Left Mouse Click to shoot. Consumes LP
+  _icon: {fileID: 1200239370, guid: 36b6e510a20a7f64793c4c1d584ccfa9, type: 3}

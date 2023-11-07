@@ -8,9 +8,6 @@ namespace Player.Abilities
         [SerializeField] private float multiplier;
 
         private InsideLightsourceBehavior _insideLightsourceBehavior;
-
-        [SerializeField] private bool test_enabled;
-
         private void Awake()
         {
             _insideLightsourceBehavior = FindObjectOfType<InsideLightsourceBehavior>();
@@ -20,12 +17,6 @@ namespace Player.Abilities
                 OnToggle(toggled);
             }
         }
-
-        private void Update()
-        {
-            toggled = test_enabled;
-        }
-
 
         protected override void OnToggle(bool toggle)
         {

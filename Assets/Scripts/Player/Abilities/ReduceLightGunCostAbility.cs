@@ -5,8 +5,6 @@ namespace Player.Abilities
 {
     public class ReduceLightGunCostAbility : BaseAbility
     {
-        [SerializeField] private bool test_enabled;
-
         private LightGun _lightGun;
         private float initialDamage;
 
@@ -20,12 +18,6 @@ namespace Player.Abilities
                 OnToggle(toggled);
             }
         }
-
-        private void Update()
-        {
-            toggled = test_enabled;
-        }
-
 
         protected override void OnToggle(bool toggle)
         {

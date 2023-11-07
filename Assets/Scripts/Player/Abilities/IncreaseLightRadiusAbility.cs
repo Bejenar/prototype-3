@@ -8,7 +8,6 @@ namespace Player.Abilities
 {
     public class IncreaseLightRadiusAbility : BaseAbility
     {
-        [SerializeField] private bool test_enabled;
         [SerializeField] private Light2D playerLight;
         [SerializeField] private float radius;
         [SerializeField] private float tick;
@@ -26,8 +25,6 @@ namespace Player.Abilities
 
         private void Update()
         {
-            toggled = test_enabled;
-
             if (!toggled) return;
 
             if (Input.GetKeyDown(KeyCode.E))

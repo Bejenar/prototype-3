@@ -4,9 +4,12 @@ namespace Player.Abilities
 {
     public abstract class BaseAbility : MonoBehaviour
     {
+        [SerializeField] private AbilityMetadata _abilityMetadata;
+        public AbilityMetadata AbilityMetadata => _abilityMetadata;
+
         private bool _enabled;
 
-        protected bool toggled
+        public bool toggled
         {
             get => _enabled;
             set
@@ -17,6 +20,8 @@ namespace Player.Abilities
             }
         }
 
-        protected virtual void OnToggle(bool toggle) {}
+        protected virtual void OnToggle(bool toggle)
+        {
+        }
     }
 }

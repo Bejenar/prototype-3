@@ -18,8 +18,6 @@ public class LightGun : BaseAbility
     private float fireRate => 1 / shotsPerSecond;
     private float _fireCooldown;
 
-    [SerializeField] private bool test_enabled; // TODO remove
-
     public float DamageToPlayer
     {
         get => damageToPlayer;
@@ -36,7 +34,6 @@ public class LightGun : BaseAbility
     // Update is called once per frame
     void Update()
     {
-        toggled = test_enabled;
         if (!toggled) return;
 
         _fireCooldown -= Time.deltaTime;
