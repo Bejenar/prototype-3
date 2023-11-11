@@ -1,3 +1,4 @@
+using DefaultNamespace;
 using Player.Events;
 using Unity.VisualScripting;
 using UnityEngine;
@@ -11,8 +12,8 @@ namespace Player
         private void Start()
         {
             _playerHealth = FindObjectOfType<PlayerHealth>();
-            EventBus.Register<EnteredDarknessZoneEvent>(EnteredDarknessZoneEvent.EventName, DamagePlayer);
-            EventBus.Register<PlayerProjectileShotEvent>(PlayerProjectileShotEvent.EventName, DamagePlayer);
+            CustomEventBus.Register<EnteredDarknessZoneEvent>(EnteredDarknessZoneEvent.EventName, DamagePlayer);
+            CustomEventBus.Register<PlayerProjectileShotEvent>(PlayerProjectileShotEvent.EventName, DamagePlayer);
         }
 
         private void DamagePlayer(IDamagingEvent e)

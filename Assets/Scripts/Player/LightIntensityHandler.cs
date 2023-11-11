@@ -1,7 +1,6 @@
-using System;
 using System.Collections;
+using DefaultNamespace;
 using Player.Events;
-using Unity.VisualScripting;
 using UnityEngine;
 using UnityEngine.Rendering.Universal;
 
@@ -19,35 +18,35 @@ namespace Player
             flicker = false;
             _light = GetComponent<Light2D>();
             initialIntensity = _light.intensity;
-            EventBus.Register<HealthChangedEvent>(HealthChangedEvent.EventName, OnHealthChanged);
+            CustomEventBus.Register<HealthChangedEvent>(HealthChangedEvent.EventName, OnHealthChanged);
 
             StartCoroutine(Flicker());
         }
-        
+
         private IEnumerator Flicker()
         {
             yield return new WaitForSeconds(1f);
-            
+
             while (true)
             {
                 if (flicker)
                 {
                     var currentIntensity = _light.intensity;
-            
+
                     _light.intensity = 0f;
-            
+
                     yield return new WaitForSeconds(0.1f);
-            
+
                     _light.intensity = currentIntensity;
                 }
-                
+
                 yield return new WaitForSeconds(1.0f);
             }
         }
 
         private void OnHealthChanged(HealthChangedEvent healthChangedEvent)
         {
-            var currentHealthRatio = (healthChangedEvent.CurrentHealth  / healthChangedEvent.MaxHealth);
+            var currentHealthRatio = (healthChangedEvent.CurrentHealth / healthChangedEvent.MaxHealth);
             _light.intensity = currentHealthRatio * currentHealthRatio * initialIntensity;
 
 

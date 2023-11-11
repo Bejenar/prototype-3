@@ -1,6 +1,5 @@
-using System;
+using DefaultNamespace;
 using Player.Events;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Player.Abilities
@@ -9,7 +8,7 @@ namespace Player.Abilities
     {
         private void Awake()
         {
-            EventBus.Register<AbilityUnlockedEvent>(AbilityUnlockedEvent.EventName, OnAbilityUnlock);
+            CustomEventBus.Register<AbilityUnlockedEvent>(AbilityUnlockedEvent.EventName, OnAbilityUnlock);
         }
 
         private void OnAbilityUnlock(AbilityUnlockedEvent e)

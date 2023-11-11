@@ -1,6 +1,7 @@
 using Player.Events;
 using Unity.VisualScripting;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 namespace DefaultNamespace
 {
@@ -8,12 +9,18 @@ namespace DefaultNamespace
     {
         private void Start()
         {
-            EventBus.Register<PlayerDiedEvent>(PlayerDiedEvent.EventName, OnPlayerDied);
+            CustomEventBus.Register<PlayerDiedEvent>(PlayerDiedEvent.EventName, OnPlayerDied);
         }
 
         void OnPlayerDied(PlayerDiedEvent playerDiedEvent)
         {
             Debug.Log("Player died, reason: " + playerDiedEvent.DeathSource);
+            LoadScene("SampleScene");
+        }
+
+        public void LoadScene(string scene)
+        {
+            SceneManager.LoadScene(scene);
         }
     }
 }

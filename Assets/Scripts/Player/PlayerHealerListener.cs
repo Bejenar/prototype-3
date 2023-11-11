@@ -1,5 +1,5 @@
+using DefaultNamespace;
 using Player.Events;
-using Unity.VisualScripting;
 using UnityEngine;
 
 namespace Player
@@ -12,7 +12,7 @@ namespace Player
         private void Start()
         {
             _playerHealth = FindObjectOfType<PlayerHealth>();
-            EventBus.Register<EnteredLightZoneEvent>(EnteredLightZoneEvent.EventName, HealPlayer);
+            CustomEventBus.Register<EnteredLightZoneEvent>(EnteredLightZoneEvent.EventName, HealPlayer);
         }
 
         private void HealPlayer(EnteredLightZoneEvent lightEvent)

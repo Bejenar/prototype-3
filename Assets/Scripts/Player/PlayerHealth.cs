@@ -10,10 +10,12 @@ namespace Player
 
         [SerializeField] private float health;
 
-        private float Health
+        private bool isDead;
+
+        public float Health
         {
             get => health;
-            set => health = value;
+            private set => health = value;
         }
 
         private void Awake()
@@ -52,7 +54,12 @@ namespace Player
 
         private void Die()
         {
-            EventBus.Trigger(PlayerDiedEvent.EventName, new PlayerDiedEvent("Consumed by darkness"));
+            if (!isDead)
+            {
+                EventBus.Trigger(PlayerDiedEvent.EventName, new PlayerDiedEvent("Consumed by darkness"));
+            }
+
+            isDead = true;
         }
 
         private void TriggerHealthChange(float amount)

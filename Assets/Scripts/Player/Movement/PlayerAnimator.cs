@@ -31,8 +31,8 @@ public class PlayerAnimator : MonoBehaviour
 
         // demoManager = FindObjectOfType<DemoManager>();
 
-        _jumpParticle = jumpFX.GetComponent<ParticleSystem>();
-        _landParticle = landFX.GetComponent<ParticleSystem>();
+        // _jumpParticle = jumpFX.GetComponent<ParticleSystem>();
+        // _landParticle = landFX.GetComponent<ParticleSystem>();
     }
 
     private void LateUpdate()

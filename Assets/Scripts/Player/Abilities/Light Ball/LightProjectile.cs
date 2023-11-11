@@ -23,7 +23,7 @@ public class LightProjectile : MonoBehaviour
         _rb.gravityScale = 0;
         _rb.isKinematic = false;
 
-        animationCurve = AnimationCurve.Linear(0f, 15f, duration, 0f);
+        animationCurve = AnimationCurve.Linear(0f, _light2D.intensity, duration, 0f);
     }
 
     private void OnCollisionEnter2D(Collision2D other)

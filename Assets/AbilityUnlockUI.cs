@@ -1,8 +1,7 @@
+using DefaultNamespace;
 using Player.Events;
 using TMPro;
-using Unity.VisualScripting;
 using UnityEngine;
-using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class AbilityUnlockUI : MonoBehaviour
@@ -15,13 +14,15 @@ public class AbilityUnlockUI : MonoBehaviour
 
     private void Awake()
     {
-        EventBus.Register<AbilityUnlockedEvent>(AbilityUnlockedEvent.EventName, OnAbilityUnlock);
+        CustomEventBus.Register<AbilityUnlockedEvent>(AbilityUnlockedEvent.EventName, OnAbilityUnlock);
     }
+
 
     private void OnAbilityUnlock(AbilityUnlockedEvent e)
     {
+        Debug.Log(panel);
         Time.timeScale = 0;
-        
+
         var meta = e.abilityMetadata;
         abilityName.text = meta.Name;
         abilityDesc.text = meta.Description;
