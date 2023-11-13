@@ -1,50 +1,47 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyGun : MonoBehaviour
 {
-    
     private float _fireCooldown;
     public Transform player;
     public GameObject projectilePrefab;
     public Transform firePoint;
     public float projectileSpeed = 5f;
 
-    private bool _playerInSight = false;
-    public bool PlayerInSight
-    {
-        get => _playerInSight;
-        set => _playerInSight = value;
-    }
+    private bool _playerInSight;
+
+    public bool PlayerInSight => _playerInSight;
+
     private float fireRate => 1 / shotsPerSecond;
     [SerializeField] private float shotsPerSecond;
 
+    private Collider2D _enemyCollider;
+
     private void Awake()
     {
-        
         player = GameObject.Find("Player").transform;
+        _enemyCollider = transform.parent.GetComponent<Collider2D>();
         firePoint = GetComponent<Transform>();
     }
 
 
     void Update()
     {
-        StartToShoot();
-        //_fireCooldown -= Time.deltaTime;
-        //if (_playerInSight && CanShoot())
-        //{
-        //    Vector2 direction = (player.position - firePoint.position).normalized;
-        //    float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+        _fireCooldown -= Time.deltaTime;
 
-
-        //    FireProjectile(direction, angle);
-        //}
+        AttemptShooting();
     }
-    private bool CanShoot()
+
+    public void AttemptShooting()
     {
-        return _fireCooldown <= 0;
+        if (_playerInSight && CanShoot())
+        {
+            Vector2 direction = (player.position - firePoint.position).normalized;
+            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
+            FireProjectile(direction, angle);
+        }
     }
+
     private void FireProjectile(Vector2 direction, float angle)
     {
         GameObject projectile = Instantiate(projectilePrefab, firePoint.position, Quaternion.Euler(0, 0, angle));
@@ -62,9 +59,17 @@ public class EnemyGun : MonoBehaviour
         {
             Debug.LogError("Rigidbody2D component not found on projectilePrefab.");
         }
+        
+        var collider = projectile.GetComponent<Collider2D>();
+        Physics2D.IgnoreCollision(collider, _enemyCollider);
     }
-    
-    
+
+    private bool CanShoot()
+    {
+        return _fireCooldown <= 0;
+    }
+
+
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -73,6 +78,7 @@ public class EnemyGun : MonoBehaviour
             _playerInSight = true;
         }
     }
+
     void OnTriggerExit2D(Collider2D other)
     {
         if (other.CompareTag("Player"))
@@ -81,17 +87,4 @@ public class EnemyGun : MonoBehaviour
             _playerInSight = false;
         }
     }
-    public void StartToShoot()
-    {
-        _fireCooldown -= Time.deltaTime;
-        if (_playerInSight && CanShoot())
-        {
-            Vector2 direction = (player.position - firePoint.position).normalized;
-            float angle = Mathf.Atan2(direction.y, direction.x) * Mathf.Rad2Deg;
-
-
-            FireProjectile(direction, angle);
-        }
-    }
-    
 }

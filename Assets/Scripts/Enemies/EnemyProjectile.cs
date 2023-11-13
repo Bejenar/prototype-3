@@ -1,8 +1,5 @@
-using System.Collections;
-using System.Collections.Generic;
-using UnityEngine;
 using Player;
-
+using UnityEngine;
 
 public class EnemyProjectile : MonoBehaviour
 {
@@ -15,23 +12,22 @@ public class EnemyProjectile : MonoBehaviour
         _rb = GetComponent<Rigidbody2D>();
         _playerHP = FindObjectOfType<PlayerHealth>();
     }
+
     private void Start()
     {
         Destroy(gameObject, 3f);
     }
-    
-    private void OnTriggerEnter2D(Collider2D other)
+
+    private void OnCollisionEnter2D(Collision2D other)
     {
-        if (other.CompareTag("Player"))
+        if (other.gameObject.CompareTag("Player"))
         {
             if (_playerHP != null)
             {
                 _playerHP.Damage(damageAmount);
             }
-            Destroy(gameObject);
         }
+
+        Destroy(gameObject);
     }
-
-
-
 }

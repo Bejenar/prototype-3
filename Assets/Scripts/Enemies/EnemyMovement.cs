@@ -1,52 +1,58 @@
-using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
 public class EnemyMovement : MonoBehaviour
 {
-    public Transform[] patrolPoints; 
-    public Transform player;
-    public float moveSpeed = 2f;
-    private int currentPatrolIndex = 0;
-    private bool isPatrolling = true;
-    private EnemyGun canSeePlayer;
+    [SerializeField] private Transform patrol;
+    [SerializeField] private Transform player;
+    [SerializeField] private float moveSpeed = 2f;
+
+    private List<Transform> _patrolPoints = new();
+    private int _currentPatrolIndex;
+    private EnemyGun _canSeePlayer;
 
     private void Awake()
     {
-        canSeePlayer = FindObjectOfType<EnemyGun>();
+        _canSeePlayer = FindObjectOfType<EnemyGun>();
+        foreach (Transform child in patrol)
+        {
+            _patrolPoints.Add(child);
+        }
     }
+
     private void Update()
     {
-        if (patrolPoints == null) return;
-        if (isPatrolling)
-        {
-            Patrol();
-        }
-        else
+        if (_patrolPoints == null) return;
+        if (_canSeePlayer.PlayerInSight)
         {
             ChasePlayer();
         }
+        else
+        {
+            Patrol();
+        }
     }
+
     private void Patrol()
     {
-        transform.position = Vector2.MoveTowards(transform.position, patrolPoints[currentPatrolIndex].position, moveSpeed * Time.deltaTime);
-        if (Vector2.Distance(transform.position, patrolPoints[currentPatrolIndex].position) < 0.1f)
+        transform.position = Vector2.MoveTowards(transform.position, _patrolPoints[_currentPatrolIndex].position,
+            moveSpeed * Time.deltaTime);
+        if (Vector2.Distance(transform.position, _patrolPoints[_currentPatrolIndex].position) < 0.1f)
         {
-            currentPatrolIndex = (currentPatrolIndex + 1) % patrolPoints.Length;
-        }
-        if (canSeePlayer.PlayerInSight)
-        {
-            isPatrolling = false;
-            canSeePlayer.StartToShoot();
+            _currentPatrolIndex = (_currentPatrolIndex + 1) % _patrolPoints.Count;
         }
     }
+
     private void ChasePlayer()
     {
         transform.position = Vector2.MoveTowards(transform.position, player.position, moveSpeed * Time.deltaTime);
-        if (!canSeePlayer.PlayerInSight)
+    }
+
+    private void OnDrawGizmos()
+    {
+        foreach (Transform point in _patrolPoints)
         {
-            isPatrolling = true;
+            Gizmos.DrawSphere(point.position, 0.2f);
         }
     }
-    
 }

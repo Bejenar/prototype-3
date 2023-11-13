@@ -3440,7 +3440,7 @@ Transform:
   m_GameObject: {fileID: 519420028}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.933687, y: -57.9, z: -10}
+  m_LocalPosition: {x: -9.965511, y: -58.51, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
@@ -3985,7 +3985,7 @@ BoxCollider2D:
     serializedVersion: 2
     m_Bits: 4294967295
   m_IsTrigger: 0
-  m_UsedByEffector: 0
+  m_UsedByEffector: 1
   m_UsedByComposite: 0
   m_Offset: {x: 0, y: 0}
   m_SpriteTilingProperty:
@@ -4588,7 +4588,7 @@ Transform:
   m_GameObject: {fileID: 860777550}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -7.933687, y: -57.9, z: -10}
+  m_LocalPosition: {x: -9.965511, y: -58.51, z: -10}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -5356,6 +5356,14 @@ PrefabInstance:
     - target: {fileID: 3679472061675021024, guid: 06deaf61e82e9b645a9879b508d38443, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 180
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611310732065474850, guid: 06deaf61e82e9b645a9879b508d38443, type: 3}
+      propertyPath: m_SortingLayer
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5611310732065474850, guid: 06deaf61e82e9b645a9879b508d38443, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 6399298169336223426, guid: 06deaf61e82e9b645a9879b508d38443, type: 3}
       propertyPath: m_Name
@@ -7154,17 +7162,21 @@ PrefabInstance:
       propertyPath: darknessDamagePerTick
       value: 1
       objectReference: {fileID: 0}
+    - target: {fileID: 4268181958702132264, guid: 31e29e4ccca17914c876144e9675b176, type: 3}
+      propertyPath: _groundLayer.m_Bits
+      value: 768
+      objectReference: {fileID: 0}
     - target: {fileID: 6417138400355597509, guid: 31e29e4ccca17914c876144e9675b176, type: 3}
       propertyPath: _slopeCheckSize.x
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 8498780913847029367, guid: 31e29e4ccca17914c876144e9675b176, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -8
+      value: -10.02
       objectReference: {fileID: 0}
     - target: {fileID: 8498780913847029367, guid: 31e29e4ccca17914c876144e9675b176, type: 3}
       propertyPath: m_LocalPosition.y
-      value: -62.9
+      value: -63.51
       objectReference: {fileID: 0}
     - target: {fileID: 8498780913847029367, guid: 31e29e4ccca17914c876144e9675b176, type: 3}
       propertyPath: m_LocalPosition.z
@@ -7197,6 +7209,14 @@ PrefabInstance:
     - target: {fileID: 8498780913847029367, guid: 31e29e4ccca17914c876144e9675b176, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154116337390983520, guid: 31e29e4ccca17914c876144e9675b176, type: 3}
+      propertyPath: m_SortingLayer
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 9154116337390983520, guid: 31e29e4ccca17914c876144e9675b176, type: 3}
+      propertyPath: m_SortingLayerID
+      value: 990718153
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
@@ -7747,6 +7767,10 @@ PrefabInstance:
       value: 0.5
       objectReference: {fileID: 0}
     - target: {fileID: 2563089184070622381, guid: bbba5ac4a5ed74b47aa21372846af36f, type: 3}
+      propertyPath: patrol
+      value: 
+      objectReference: {fileID: 2124145694}
+    - target: {fileID: 2563089184070622381, guid: bbba5ac4a5ed74b47aa21372846af36f, type: 3}
       propertyPath: player
       value: 
       objectReference: {fileID: 2027455413}
@@ -7765,7 +7789,7 @@ PrefabInstance:
     - target: {fileID: 2563089184070622381, guid: bbba5ac4a5ed74b47aa21372846af36f, type: 3}
       propertyPath: patrolPoints.Array.data[3]
       value: 
-      objectReference: {fileID: 2033582266}
+      objectReference: {fileID: 0}
     - target: {fileID: 3012473339276834820, guid: bbba5ac4a5ed74b47aa21372846af36f, type: 3}
       propertyPath: m_Radius
       value: 10
@@ -7899,7 +7923,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0, y: -0.000061035156}
+  m_AnchoredPosition: {x: 0, y: 0}
   m_SizeDelta: {x: -1171.9108, y: -466.6446}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!1 &5685251598881241744
