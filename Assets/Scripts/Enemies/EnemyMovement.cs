@@ -4,7 +4,7 @@ using UnityEngine;
 public class EnemyMovement : MonoBehaviour
 {
     [SerializeField] private Transform patrol;
-    [SerializeField] private Transform player;
+    private Transform player;
     [SerializeField] private float moveSpeed = 2f;
 
     private List<Transform> _patrolPoints = new();
@@ -13,6 +13,7 @@ public class EnemyMovement : MonoBehaviour
 
     private void Awake()
     {
+        player = GameObject.Find("Player").transform;
         _canSeePlayer = FindObjectOfType<EnemyGun>();
         foreach (Transform child in patrol)
         {

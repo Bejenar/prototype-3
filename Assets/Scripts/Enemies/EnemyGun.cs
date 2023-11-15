@@ -3,7 +3,7 @@ using UnityEngine;
 public class EnemyGun : MonoBehaviour
 {
     private float _fireCooldown;
-    public Transform player;
+    private Transform player;
     public GameObject projectilePrefab;
     public Transform firePoint;
     public float projectileSpeed = 5f;
