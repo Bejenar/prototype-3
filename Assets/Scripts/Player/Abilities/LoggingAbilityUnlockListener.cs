@@ -15,5 +15,10 @@ namespace Player.Abilities
         {
             Debug.Log("Unlocked ability " + e.abilityMetadata.Name);
         }
+
+        public void DebugLog(string message)
+        {
+            Debug.Log(message);
+        }
     }
 }
