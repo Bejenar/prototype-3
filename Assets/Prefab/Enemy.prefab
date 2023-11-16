@@ -181,8 +181,8 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectilePrefab: {fileID: 3841637138343323473, guid: 429cd609171e842469064567fd0ff6a5, type: 3}
   firePoint: {fileID: 2749593815667267789}
-  projectileSpeed: 5
-  shotsPerSecond: 2
+  projectileSpeed: 7
+  shotsPerSecond: 1
 --- !u!58 &8820428619157531048
 CircleCollider2D:
   m_ObjectHideFlags: 0

@@ -39,7 +39,7 @@ public class InsideLightsourceBehavior : MonoBehaviour
         }
     }
 
-    private void OnTriggerEnter2D(Collider2D other)
+    private void OnTriggerStay2D(Collider2D other)
     {
         if (ordinaryLightMask.Includes(other))
         {
@@ -58,7 +58,7 @@ public class InsideLightsourceBehavior : MonoBehaviour
         {
             isInsideLightZone = false;
         }
-
+    
         if (healingLightMask.Includes(other))
         {
             isInsideHealingZone = false;

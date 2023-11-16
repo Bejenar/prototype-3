@@ -20,8 +20,14 @@ namespace Player
 
         private void Awake()
         {
-            Health = maxHealth;
+            ResetHP();
             Debug.Log("Start hp is: " + Health);
+        }
+
+        public void ResetHP()
+        {
+            isDead = false;
+            Health = maxHealth;
         }
 
         public void Damage(float amount)
@@ -56,10 +62,9 @@ namespace Player
         {
             if (!isDead)
             {
+                isDead = true;
                 EventBus.Trigger(PlayerDiedEvent.EventName, new PlayerDiedEvent("Consumed by darkness"));
             }
-
-            isDead = true;
         }
 
         private void TriggerHealthChange(float amount)

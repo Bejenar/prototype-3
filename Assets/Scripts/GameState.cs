@@ -11,7 +11,7 @@ namespace DefaultNamespace
         [SerializeField] private Transform spawnPoint;
 
         private PlayerHealth _playerHealth;
-        
+
         private void Start()
         {
             _playerHealth = FindObjectOfType<PlayerHealth>();
@@ -22,7 +22,7 @@ namespace DefaultNamespace
         {
             Debug.Log("Player died, reason: " + playerDiedEvent.DeathSource);
             GameObject.Find("Player").transform.position = spawnPoint.position;
-            _playerHealth.Heal(100f);
+            _playerHealth.ResetHP();
         }
 
         public void LoadScene(string scene)
