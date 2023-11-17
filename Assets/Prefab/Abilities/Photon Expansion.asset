@@ -13,5 +13,8 @@ MonoBehaviour:
   m_Name: Photon Expansion
   m_EditorClassIdentifier: 
   _name: Eminence in Shadow
-  _description: Increase Bunny Light Range. Press E to toggle. Consumes LP over time
+  _description: "\u043D\u0430\u0436\u043C\u0438 \u0415 \u0447\u0442\u043E\u0431\u044B
+    \u0441\u0432\u0435\u0442\u0438\u0442\u044C\u0441\u044F \u044F\u0440\u0447\u0435,
+    \u043D\u043E \u0442\u0440\u0430\u0442\u0438\u0442\u044C \u0431\u043E\u043B\u044C\u0448\u0435
+    \u0441\u0432\u0435\u0442\u0430"
   _icon: {fileID: 1548401192, guid: 36b6e510a20a7f64793c4c1d584ccfa9, type: 3}

@@ -13,5 +13,6 @@ MonoBehaviour:
   m_Name: Light Shot Upgrade
   m_EditorClassIdentifier: 
   _name: Light Shot Upgrade
-  _description: Light Shots now don't consume LP
+  _description: "\u0422\u0435\u043F\u0435\u0440\u044C \u0442\u0432\u043E\u0438 \u043F\u043B\u0435\u0432\u043A\u0438
+    \u0431\u0435\u0441\u043F\u043B\u0430\u0442\u043D\u044B\u0435"
   _icon: {fileID: 1200239370, guid: 36b6e510a20a7f64793c4c1d584ccfa9, type: 3}

@@ -13,5 +13,7 @@ MonoBehaviour:
   m_Name: Darkness Resistance
   m_EditorClassIdentifier: 
   _name: 'Darkness Resistance '
-  _description: Reduce LP consumption in Darkness by 50%
+  _description: "\u0412\u044B \u0442\u0440\u0430\u0442\u0438\u0442\u0435 \u043D\u0430
+    50% \u043C\u0435\u043D\u044C\u0448\u0435 \u0441\u0432\u0435\u0442\u0430 \u0432
+    \u0442\u0435\u043C\u043D\u043E\u0442\u0435"
   _icon: {fileID: 2006474539, guid: 36b6e510a20a7f64793c4c1d584ccfa9, type: 3}

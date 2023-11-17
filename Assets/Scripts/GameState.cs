@@ -21,8 +21,9 @@ namespace DefaultNamespace
         void OnPlayerDied(PlayerDiedEvent playerDiedEvent)
         {
             Debug.Log("Player died, reason: " + playerDiedEvent.DeathSource);
-            GameObject.Find("Player").transform.position = spawnPoint.position;
-            _playerHealth.ResetHP();
+            // GameObject.Find("Player").transform.position = spawnPoint.position;
+            // _playerHealth.ResetHP();
+            LoadScene("SampleScene");
         }
 
         public void LoadScene(string scene)
