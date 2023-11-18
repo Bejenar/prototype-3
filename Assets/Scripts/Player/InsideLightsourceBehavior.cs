@@ -18,7 +18,7 @@ public class InsideLightsourceBehavior : MonoBehaviour
 
     void Start()
     {
-        isInsideHealingZone = false;
+        isInsideHealingZone = true;
         StartCoroutine(TickZoneCheck());
     }
 

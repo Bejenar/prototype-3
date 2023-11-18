@@ -40,6 +40,6 @@ public class LightGate : MonoBehaviour
 
     private bool CanOpenGate()
     {
-        return (_playerHealth.Health > LPCost) && canActivate;
+        return (_playerHealth.Health > LPCost + 10) && canActivate;
     }
 }
